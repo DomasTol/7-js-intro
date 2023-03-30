@@ -56,7 +56,7 @@ console.log(pasisveikinimas);
 //number + string
 // Sveiki, mano vardas Jonas ir man 88 metai!
 
-const name1 = 'Jonas';
+/*const name1 = 'Jonas';
 const age1 = 88;
 
 const prisistatymas = 'Sveiki, mano vardas ' + name1 + ' ir man ' + age1 + ' metai!';
@@ -73,4 +73,27 @@ console.log(x - y);
 
 console.log(x / y);
 
-console.log(x * y);
+console.log(x * y);*/
+
+//Pirmas uzdavinys :
+
+console.clear;
+
+const x = 1;
+const y = 2;
+const z = 3;
+
+console.log (x + y + z);
+console.log (x - y - z);
+console.log (x * y * z);
+console.log (x / y / z);
+
+//Antras uzdavinys :
+
+const name1 = "Jonas ";
+const name2 = "Jonaitis ";
+const name3 = "Jonauskas";
+
+console.log (name1 + name2 + name3);
+
+
