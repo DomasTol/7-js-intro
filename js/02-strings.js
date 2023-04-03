@@ -11,7 +11,8 @@ Kintamuju iniciavimas:
 
 Sting'o iniciavimas:
 -viengubos kabutes
-dvigubos kabutes
+-dvigubos kabutes
+-backtick kabutes
 
 */
 // KINTAMUJU INICIAVIMAS
@@ -95,5 +96,79 @@ const name2 = "Jonaitis ";
 const name3 = "Jonauskas";
 
 console.log (name1 + name2 + name3);
+
+//Antra paskaita :
+
+console.clear();
+
+// Sveiki, Domas!
+
+const username1 = 'Jonas';
+const username2 = 'Maryte';
+const username3 = 'Petras';
+const username4 = 'Ona';
+
+const hi1 = 'Sveiki, ' + username1 + '!';
+const hi2 = 'Sveiki, ' + username2 + '!';
+const hi3 = 'Sveiki, ' + username3 + '!';
+const hi4 = 'Sveiki, ' + username4 + '!';
+
+console.log(hi1);
+console.log(hi2);
+console.log(hi3);
+console.log(hi4);
+
+// Vienguba (') kabute.
+
+const kabute1 = "Vienguba (') kabute.";
+console.log(kabute1);
+
+// Dviguba (") kabute.
+
+const kabute2 = 'Dviguba (") kabute.';
+console.log(kabute2);
+
+// Vienguba (') ir Dviguba (") kabutes.
+
+const kabute12_1 = 'Vienguba (\') ir dviguba (") kabutes.';
+console.log(kabute12_1);
+
+const kabute12_2 = "Vienguba (') ir dviguba (\") kabutes.";
+console.log(kabute12_2);
+
+const kabute12_3 = "Vienguba (\') ir dviguba (\") kabutes.";
+console.log(kabute12_3);
+
+//Backtick kabutes (`) : 
+
+const kabute3 = `Viengube (') ir dviguba (") kabutes.`;
+console.log(kabute3);
+
+// Kabutes : '"`.
+
+
+// Simboliai : \n, \r , \t
+
+
+
+// \n\ stulpelio pabaigoje yra naudojamas, noredamas isgauti nauja eilute.
+
+
+// \n\r\
+
+
+// Your lucky number is 7. Congz !
+
+const userNumber = 777;
+console.log(`Your lucky number is ${userNumber}. Congz!`);
+
+const vardenis = 'vardenis';
+const amzius = 99;
+
+console.log(`Sveiki, mano vardas ${vardenis} ir man ${amzius} metu.`);
+
+
+
+
 
 
