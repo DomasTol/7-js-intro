@@ -167,6 +167,8 @@ const amzius = 99;
 
 console.log(`Sveiki, mano vardas ${vardenis} ir man ${amzius} metu.`);
 
+console.clear();
+
 
 
 
