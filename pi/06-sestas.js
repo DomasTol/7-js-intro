@@ -12,7 +12,7 @@ console.clear();
 
 function palyginti (skai1, skai2){
     if(skai1>skai2){
-        return skai1+" yra didesnis skaicius";
+        return `"${skai1} yra didesnis skaicius"`;
     }else if (skai1 === skai2){
         return'"abu skaiciai lygus"';
     }else {

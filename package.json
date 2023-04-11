@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "ternary": "nodemon ./js/12-ternary.js",
+    "switch": "nodemon ./js/11-switch.js",
     "septintas": "nodemon ./pi/07-septintas.js",
     "sestas": "nodemon ./pi/06-sestas.js",
     "penktas": "nodemon ./pi/05-penktas.js",
