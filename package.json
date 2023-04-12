@@ -16,7 +16,7 @@
     "trecias": "nodemon ./pi/03-trecias.js",
     "antras": "nodemon ./pi/02-antras.js",
     "pirmas": "nodemon ./pi/01-pirmas.js",
-    "ps": "nodemon ./js/10-ps.js",
+    "math-operators": "nodemon ./js/10-ps.js",
     "for": "nodemon ./js/09-for.js",
     "if": "nodemon ./js/08-if.js",
     "function": "nodemon ./js/07-function.js",
