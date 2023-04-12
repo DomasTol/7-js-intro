@@ -81,3 +81,35 @@ function arYraTekste2(tekstas, raide) {
 
 // console.log('>>', arYraTekste(kurIeskau, 'p'));
 console.log('>>', arYraTekste2(kurIeskau, 'm'));
+
+console.log('--------------');
+
+console.log('PoMiDoRaS' .toLowerCase());
+console.log('PoMiDoRaS' .toUpperCase());
+
+console.log('PoMiDoRaS' .indexOf('o'));
+console.log('PoMiDoRaS' .indexOf('MiDo'));
+console.log('PoMiDoRaS' .indexOf('xxx'));
+
+console.log('PoMiDoRaS' .repeat(5));
+
+const pakeisti = 'PoMiDoRaS' .replace('M', 'm')
+    .replace('D', 'd')
+    .replace('R', 'r')
+    .replace('S', 's')
+console.log(pakeisti);
+
+console.log('AAAAAAA' .replace('A' , 'a'));
+console.log('AAAAAAA' .replaceAll('A' , 'a'));
+
+console.clear();
+
+console.log('Pomidoras' .slice(2, 5));
+console.log('Pomidoras' .slice(2, 5));
+console.log('Pomidoras' .slice(0, -1));
+// Trim panaikina tarpus priekyje ir gale
+
+console.log('Pomidoras' .trim());
+console.log('        Pomidoras' .trim());
+console.log('     Pomi   doras' .trim());
+console.log('     Pomidoras     ' .trim());
