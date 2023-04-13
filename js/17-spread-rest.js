@@ -107,3 +107,19 @@ console.log(suma(1));
 console.log(suma(1, 2));
 console.log(suma(1, 2, 3, 4));
 
+console.clear();
+
+const varle = {
+    pirstu: 4,
+    kelnes: 'green',
+    arKabo: true,
+};
+
+const varle2 = {...varle};
+const varle3 = {...varle, ugis:18};
+const varle4 = {...varle, ugis: 18, ...varle};
+
+console.log(varle);
+console.log(varle2);
+console.log(varle4);
+
