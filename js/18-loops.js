@@ -92,3 +92,61 @@ const studentMarks = [10, 2, -7, 8, -5, 4, 6];
 const filteredMarks = studentMarks.filter(m => m >= 1 && m <= 10);
 console.log(studentMarks);
 console.log(filteredMarks);
+
+//REDUCE - subendrinti rezultada pagal pateikta logika
+const reducedSum = marks
+    .reduce((t, m) => t + m);  //t - tottal, m - mark
+console.log('reduce:', reducedSum);
+
+const reducedSum2 = marks
+    .reduce((t, m) => t + m, 0); 
+console.log('reduce2:', reducedSum2);
+
+
+const reduce1 = [2, 4, 8, 16].reduce((t, n) => t+ n);
+console.log('1:', reduce1);
+
+const reduce2 = [2, 4, 8, 16].reduce((t, n) => t+ n);
+console.log('2:', reduce2);
+
+const reduce3 = [2, 4, 8, 16].reduce((t, n) => t+ n, 100);
+console.log('3:', reduce3);
+
+const reduce4 = [2, 4, 8, 16].reduce((t, n) => t+ n, -100);
+console.log('4:', reduce4);
+
+const reduce5 = [2, 4, 8, 16].reduce((t, n) => t- n);
+console.log('5:', reduce5); 
+
+const reduce6 = [2, 4, 8, 16].reduce((t, n) => t- n, 0);
+console.log('6:', reduce6); 
+
+const reduce7 = [2, 4, 8, 16].reduce((t, n) => t* n);
+console.log('7:', reduce7); 
+
+const reduce8 = [2, 4, 8, 16].reduce((t, n) => t/ n);
+console.log('8:', reduce8);
+
+const reduce9 = [2, 4, 8, 16].reduce((t, n) => t % n);
+console.log('9:', reduce9); //issiaiskinti su procentais
+
+//SORT
+marks.sort();
+console.log(marks);
+
+marks.sort((a, b) => a - b);
+console.log(marks);
+
+//VIDURKIS
+const pazymiai = [10, 2, 'Petras', true, 8, -7, [], {}, undefined, NaN, Infinity, -Infinity, 4, 6, Math.E, Math.PI, 3.14, null, 0];
+
+const tikriPazymiai = pazymiai
+.filter(p => typeof p === 'number')
+.filter(p => p > 0)
+.filter(p => p <= 10)
+.filter(p => p % 1 === 0)
+const vidurkis = tikriPazymiai
+.reduce((s, p) => s+p, 0) / tikriPazymiai.length;
+
+console.log(tikriPazymiai);
+console.log(vidurkis);
